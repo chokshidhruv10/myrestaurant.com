@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(images\ \(2\).jpg);
+        }
+
+        header {
+            display: flex;
+            align-items:center;
+            padding:10px 20px;
+            background-color:#b69117;
+            color:#d7e856;
+        }
+        .vlog{
+            height:50px;
+            margin-right:15px;
+            border-radius:50%;
+
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: white;
+            
+        }
+        .menu {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: orangered;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .menu h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        img{
+            border: solid 2px white;
+            border-radius: 20%;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="vlog"src="logo2.png" alt="logo">
+        <h1 style="margin: 0;font-size:1.5rem;"> Gujarati Restaurant</h1>
+        </header>
+        <body style="font-family:Arial,sans-serif;margin:0;">
+        <nav style="background-color:#333;overflow:hidden;text-align:center;">
+        <a href="home.html" style="float:left;display:block;color:white;padding:14px 20px;text-decoration:none;">Home</a>
+        <a href="recipe.html" style="float:left;display:block;color:white;padding:14px 20px;text-decoration:none;">Recipe</a>
+        <a href="contact.html" style="float:left;display:block;color:white;padding:14px 20px;text-decoration:none;">Contact</a>
+        <a href="login.html"style="float:left;display:block;color:white;padding:14px 20px;text-decoration:none">Log Out</a>
+        </nav>
+
+    <div class="menu">
+        <h2>Starters</h2>
+        <div class="item">
+            <h3>Handvo</h3>
+            <img src="handvo.jpeg" alt="handvo">
+            <span style="color: black;">₹ 80</span>
+        </div>
+        <div class="item">
+            <h3>Dhokla</h3>
+            <img src="dhokla.jpeg" alt="Dhokla" height="225px" width="225px">
+            <span style="color: black;">₹ 60</span>
+        </div>
+
+        <h2>Main Course</h2>
+        <div class="item">
+            <h3>Undhiyu</h3>
+            <img src="undhiyu.jpeg" alt="Undhiyu" height="225px" width="225px">
+            <span style="color: black;">₹ 160</span>
+        </div>
+        <div class="item">
+            <h3>Dal dhokli</h3>
+            <img src="dhokli.jpeg" alt="Dal dhokli" height="225px" width="225px">
+            <span style="color: black;">₹ 140</span>
+        </div>
+
+        <h2>Desserts</h2>
+        <div class="item">
+            <h3>Jalebi</h3>
+            <img src="jalebi.jpeg" alt="jalebi" height="225px" width="225px">
+            <span style="color:black;">₹ 80</span>
+        </div>
+        <div class="item">
+            <h3>Gulabjambu</h3>
+            <img src="julab jambu.jpeg" alt="Gulabjambu" height="225px" width="225px">
+            <span style="color: black;">₹ 120</span>
+        </div>
+    </div>
+
+    <footer>
+        &copy; Dhruv Chokshi. All rights reserved.
+    </footer>
+</body>
+</html>

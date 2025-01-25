@@ -1,0 +1,52 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: aliceblue;
+    color: gray;
+  }
+  header {
+    background-color: orange;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+  }
+  main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .dish {
+    background: aliceblue;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px black;
+  }
+  .dish h2 {
+    margin: 0 0 10px;
+    color: orange;
+    font-size: 1.8em;
+  }
+  .dish p {
+    margin: 0;
+  }
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: gray;
+    color: aliceblue;
+    bottom: 0;
+    width: 100%;
+  }
+  
